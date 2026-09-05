@@ -65,7 +65,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add conferences.json
-          git commit -m "Update conference data from Bibby"
+          git commit -m "Update conference data"
           git push
 
       - name: Open update pull request
@@ -73,10 +73,10 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Update conference data from Bibby"
-          title: "Update conference data from Bibby"
+          commit-message: "Update conference data"
+          title: "Update conference data"
           body: |
-            Automated update generated from Bibby's CV Clock.
+            Automated update generated from the configured conference data sources.
 
             Please review `conferences.json` before merging, especially entries marked `projected`.
           branch: "automation/update-conferences"
