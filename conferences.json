@@ -1,5 +1,29 @@
 {
   "updatedAt": "2026-09-05",
+  "source": "https://raw.githubusercontent.com/ccfddl/ccfddl.github.io/master/conference/allconf.yml",
+  "policy": {
+    "mode": "auto-apply",
+    "allowedSeries": [
+      "ACCV",
+      "BMVC",
+      "CVPR",
+      "ECCV",
+      "ICCV",
+      "ICDAR",
+      "ICIP",
+      "WACV"
+    ],
+    "note": "Generated from ccfddl, merged with existing local conferences."
+  },
+  "stats": {
+    "currentCount": 11,
+    "importedCount": 2,
+    "source": "ccfddl",
+    "outputCount": 11,
+    "upstreamWarnings": [
+      "Bibby CV Clock: request failed: 403"
+    ]
+  },
   "conferences": [
     {
       "id": "eccv26-conference",
@@ -108,11 +132,12 @@
       },
       "title": "Computer Vision & Pattern Recognition",
       "stage": "ABSTRACT REG.",
-      "deadline": "2026-11-08T11:59:59Z",
-      "displayDeadline": "Nov 7, 2026 AoE / Nov 8 UTC 11:59",
-      "meeting": "Jun 20-25, 2027",
-      "location": "Seattle, WA",
-      "projected": true
+      "deadline": "2026-11-11T11:59:00.000Z",
+      "displayDeadline": "Nov 10, 2026 UTC-12 23:59",
+      "meeting": "June 20-24, 2027",
+      "location": "Seattle, WA, United States",
+      "source": "ccfddl",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2027"
     },
     {
       "id": "cvpr27-paper",
@@ -125,11 +150,12 @@
       },
       "title": "Computer Vision & Pattern Recognition",
       "stage": "FULL PAPER",
-      "deadline": "2026-11-14T11:59:59Z",
-      "displayDeadline": "Nov 13, 2026 AoE / Nov 14 UTC 11:59",
-      "meeting": "Jun 20-25, 2027",
-      "location": "Seattle, WA",
-      "projected": true
+      "deadline": "2026-11-17T11:59:00.000Z",
+      "displayDeadline": "Nov 16, 2026 UTC-12 23:59",
+      "meeting": "June 20-24, 2027",
+      "location": "Seattle, WA, United States",
+      "source": "ccfddl",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2027"
     },
     {
       "id": "cvpr27-supp",
