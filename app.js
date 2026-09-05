@@ -150,6 +150,8 @@ const conferenceCycleYears = {
   CVPR: 1,
   ECCV: 2,
   ICCV: 2,
+  ICDAR: 2,
+  ICIP: 1,
   WACV: 1,
 };
 

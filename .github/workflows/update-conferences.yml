@@ -1,0 +1,83 @@
+name: Update Conference Data
+
+on:
+  schedule:
+    - cron: "20 2 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "How to publish detected conference updates"
+        required: true
+        default: "pull-request"
+        type: choice
+        options:
+          - "pull-request"
+          - "publish"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-conference-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Update conference data
+        run: node scripts/update-from-bibby.mjs --apply
+
+      - name: Check for data changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet -- conferences.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Resolve update mode
+        id: mode
+        shell: bash
+        run: |
+          mode="${{ github.event.inputs.mode || vars.CONFERENCE_UPDATE_MODE || 'pull-request' }}"
+          if [ "$mode" = "publish" ]; then
+            echo "value=publish" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=pull-request" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish directly
+        if: steps.changes.outputs.changed == 'true' && steps.mode.outputs.value == 'publish'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add conferences.json
+          git commit -m "Update conference data from Bibby"
+          git push
+
+      - name: Open update pull request
+        if: steps.changes.outputs.changed == 'true' && steps.mode.outputs.value == 'pull-request'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update conference data from Bibby"
+          title: "Update conference data from Bibby"
+          body: |
+            Automated update generated from Bibby's CV Clock.
+
+            Please review `conferences.json` before merging, especially entries marked `projected`.
+          branch: "automation/update-conferences"
+          delete-branch: true
