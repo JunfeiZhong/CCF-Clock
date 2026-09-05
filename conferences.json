@@ -1,0 +1,184 @@
+{
+  "updatedAt": "2026-09-05",
+  "conferences": [
+    {
+      "id": "eccv26-conference",
+      "acronym": "ECCV 2026",
+      "area": "CV",
+      "rankings": {
+        "core": "A*",
+        "ccf": "B",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "European Conference on Computer Vision",
+      "stage": "MAIN CONFERENCE",
+      "deadline": "2026-09-07T22:00:00Z",
+      "displayDeadline": "Sep 8, 2026",
+      "meeting": "Sep 8-12, 2026",
+      "location": "Malmö, Sweden"
+    },
+    {
+      "id": "accv26-decision",
+      "acronym": "ACCV 2026",
+      "area": "CV",
+      "rankings": {
+        "core": "A",
+        "ccf": "C",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "Asian Conference on Computer Vision",
+      "stage": "PAPER DECISION",
+      "deadline": "2026-09-20T23:59:00Z",
+      "displayDeadline": "Sep 20, 2026 GMT 23:59",
+      "meeting": "Dec 16-18, 2026",
+      "location": "Macau SAR, China"
+    },
+    {
+      "id": "accv26-camera",
+      "acronym": "ACCV 2026",
+      "area": "CV",
+      "rankings": {
+        "core": "A",
+        "ccf": "C",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "Asian Conference on Computer Vision",
+      "stage": "CAMERA-READY",
+      "deadline": "2026-10-04T23:59:00Z",
+      "displayDeadline": "Oct 4, 2026 GMT 23:59",
+      "meeting": "Dec 16-18, 2026",
+      "location": "Macau SAR, China"
+    },
+    {
+      "id": "wacv27-decision",
+      "acronym": "WACV 2027",
+      "area": "CV",
+      "rankings": {
+        "core": "A",
+        "ccf": "-",
+        "ccfField": "Not Listed"
+      },
+      "title": "Winter Conf. on Apps of CV",
+      "stage": "FINAL DECISIONS",
+      "deadline": "2026-10-10T11:59:59Z",
+      "displayDeadline": "Oct 10, 2026 UTC 11:59",
+      "meeting": "Jan 4-8, 2027",
+      "location": "Disney Springs, FL"
+    },
+    {
+      "id": "wacv27-camera",
+      "acronym": "WACV 2027",
+      "area": "CV",
+      "rankings": {
+        "core": "A",
+        "ccf": "-",
+        "ccfField": "Not Listed"
+      },
+      "title": "Winter Conf. on Apps of CV",
+      "stage": "CAMERA-READY",
+      "deadline": "2026-11-03T11:59:59Z",
+      "displayDeadline": "Nov 3, 2026 UTC 11:59",
+      "meeting": "Jan 4-8, 2027",
+      "location": "Disney Springs, FL"
+    },
+    {
+      "id": "bmvc26-registration",
+      "acronym": "BMVC 2026",
+      "area": "CV",
+      "rankings": {
+        "core": "A",
+        "ccf": "C",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "British Machine Vision Conference",
+      "stage": "LATE REGISTRATION",
+      "deadline": "2026-11-03T11:59:59Z",
+      "displayDeadline": "Nov 2, 2026 AoE / Nov 3 UTC 11:59",
+      "meeting": "Nov 23-26, 2026",
+      "location": "Lancaster, UK"
+    },
+    {
+      "id": "cvpr27-abstract",
+      "acronym": "CVPR 2027",
+      "area": "CV",
+      "rankings": {
+        "core": "A*",
+        "ccf": "A",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "Computer Vision & Pattern Recognition",
+      "stage": "ABSTRACT REG.",
+      "deadline": "2026-11-08T11:59:59Z",
+      "displayDeadline": "Nov 7, 2026 AoE / Nov 8 UTC 11:59",
+      "meeting": "Jun 20-25, 2027",
+      "location": "Seattle, WA",
+      "projected": true
+    },
+    {
+      "id": "cvpr27-paper",
+      "acronym": "CVPR 2027",
+      "area": "CV",
+      "rankings": {
+        "core": "A*",
+        "ccf": "A",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "Computer Vision & Pattern Recognition",
+      "stage": "FULL PAPER",
+      "deadline": "2026-11-14T11:59:59Z",
+      "displayDeadline": "Nov 13, 2026 AoE / Nov 14 UTC 11:59",
+      "meeting": "Jun 20-25, 2027",
+      "location": "Seattle, WA",
+      "projected": true
+    },
+    {
+      "id": "cvpr27-supp",
+      "acronym": "CVPR 2027",
+      "area": "CV",
+      "rankings": {
+        "core": "A*",
+        "ccf": "A",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "Computer Vision & Pattern Recognition",
+      "stage": "SUPPLEMENTARY",
+      "deadline": "2026-11-21T11:59:59Z",
+      "displayDeadline": "Nov 20, 2026 AoE / Nov 21 UTC 11:59",
+      "meeting": "Jun 20-25, 2027",
+      "location": "Seattle, WA",
+      "projected": true
+    },
+    {
+      "id": "bmvc26-conference",
+      "acronym": "BMVC 2026",
+      "area": "CV",
+      "rankings": {
+        "core": "A",
+        "ccf": "C",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "British Machine Vision Conference",
+      "stage": "MAIN CONFERENCE",
+      "deadline": "2026-11-23T00:00:00Z",
+      "displayDeadline": "Nov 23, 2026",
+      "meeting": "Nov 23-26, 2026",
+      "location": "Lancaster, UK"
+    },
+    {
+      "id": "iccv27-tba",
+      "acronym": "ICCV 2027",
+      "area": "CV",
+      "rankings": {
+        "core": "A*",
+        "ccf": "A",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "International Conference on Computer Vision",
+      "stage": "PAPER DEADLINE",
+      "displayDeadline": "Submission Date TBA",
+      "meeting": "Oct 2-8, 2027",
+      "location": "Hong Kong",
+      "tba": true
+    }
+  ]
+}

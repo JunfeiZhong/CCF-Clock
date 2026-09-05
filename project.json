@@ -1,0 +1,33 @@
+{
+  "description": "Retro academic computer vision conference deadline clock.",
+  "file": "index.html",
+  "general": {
+    "properties": {
+      "colortheme": {
+        "text": "Color Theme",
+        "type": "combo",
+        "value": "light",
+        "options": [
+          {
+            "label": "Vintage Paper",
+            "value": "light"
+          },
+          {
+            "label": "Dark Ink",
+            "value": "dark"
+          }
+        ]
+      },
+      "datasourceurl": {
+        "text": "Data Source URL",
+        "type": "textinput",
+        "value": ""
+      }
+    }
+  },
+  "preview": "",
+  "tags": ["Technology", "Productivity"],
+  "title": "CV Paper Clock",
+  "type": "web",
+  "visibility": "private"
+}
