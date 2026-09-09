@@ -350,6 +350,10 @@ body::before {
   font-style: italic;
 }
 
+.conference-meta__item--location dd .latin-token--letters {
+  font-style: normal;
+}
+
 .countdown__unit,
 .countdown__sep {
   color: var(--countdown-unit);
