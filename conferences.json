@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05",
+  "updatedAt": "2026-09-25",
   "source": "https://raw.githubusercontent.com/ccfddl/ccfddl.github.io/master/conference/allconf.yml",
   "policy": {
     "mode": "auto-apply",
@@ -17,9 +17,9 @@
   },
   "stats": {
     "currentCount": 11,
-    "importedCount": 2,
+    "importedCount": 4,
     "source": "ccfddl",
-    "outputCount": 11,
+    "outputCount": 13,
     "upstreamWarnings": [
       "Bibby CV Clock: request failed: 403"
     ]
@@ -189,6 +189,42 @@
       "displayDeadline": "Nov 23, 2026",
       "meeting": "Nov 23-26, 2026",
       "location": "Lancaster, UK"
+    },
+    {
+      "id": "icdar27-abstract",
+      "acronym": "ICDAR 2027",
+      "area": "CV",
+      "rankings": {
+        "core": "A",
+        "ccf": "C",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "Document Analysis and Recognition",
+      "stage": "ABSTRACT REG.",
+      "deadline": "2027-02-01T11:59:59.000Z",
+      "displayDeadline": "Jan 31, 2027 AoE 23:59",
+      "meeting": "August 18 - 22, 2027",
+      "location": "Kuala Lumpur, Malaysia",
+      "source": "ccfddl",
+      "sourceUrl": "https://icdar2027.org/"
+    },
+    {
+      "id": "icdar27-paper",
+      "acronym": "ICDAR 2027",
+      "area": "CV",
+      "rankings": {
+        "core": "A",
+        "ccf": "C",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "Document Analysis and Recognition",
+      "stage": "FULL PAPER",
+      "deadline": "2027-02-21T11:59:59.000Z",
+      "displayDeadline": "Feb 20, 2027 AoE 23:59",
+      "meeting": "August 18 - 22, 2027",
+      "location": "Kuala Lumpur, Malaysia",
+      "source": "ccfddl",
+      "sourceUrl": "https://icdar2027.org/"
     },
     {
       "id": "iccv27-tba",
