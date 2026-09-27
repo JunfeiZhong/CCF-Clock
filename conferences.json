@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-27",
   "source": "https://raw.githubusercontent.com/ccfddl/ccfddl.github.io/master/conference/allconf.yml",
   "policy": {
     "mode": "auto-apply",
@@ -16,7 +16,7 @@
     "note": "Generated from ccfddl, merged with existing local conferences."
   },
   "stats": {
-    "currentCount": 11,
+    "currentCount": 13,
     "importedCount": 4,
     "source": "ccfddl",
     "outputCount": 13,
@@ -134,7 +134,7 @@
       "stage": "ABSTRACT REG.",
       "deadline": "2026-11-11T11:59:00.000Z",
       "displayDeadline": "Nov 10, 2026 UTC-12 23:59",
-      "meeting": "June 20-24, 2027",
+      "meeting": "June 20-25, 2027",
       "location": "Seattle, WA, United States",
       "source": "ccfddl",
       "sourceUrl": "https://cvpr.thecvf.com/Conferences/2027"
@@ -152,7 +152,7 @@
       "stage": "FULL PAPER",
       "deadline": "2026-11-17T11:59:00.000Z",
       "displayDeadline": "Nov 16, 2026 UTC-12 23:59",
-      "meeting": "June 20-24, 2027",
+      "meeting": "June 20-25, 2027",
       "location": "Seattle, WA, United States",
       "source": "ccfddl",
       "sourceUrl": "https://cvpr.thecvf.com/Conferences/2027"
