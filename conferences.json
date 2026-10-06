@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-10-06",
   "source": "https://raw.githubusercontent.com/ccfddl/ccfddl.github.io/master/conference/allconf.yml",
   "policy": {
     "mode": "auto-apply",
@@ -132,7 +132,7 @@
       },
       "title": "Computer Vision & Pattern Recognition",
       "stage": "ABSTRACT REG.",
-      "deadline": "2026-11-11T11:59:00.000Z",
+      "deadline": "2026-11-11T11:59:59.000Z",
       "displayDeadline": "Nov 10, 2026 UTC-12 23:59",
       "meeting": "June 20-25, 2027",
       "location": "Seattle, WA, United States",
@@ -150,7 +150,7 @@
       },
       "title": "Computer Vision & Pattern Recognition",
       "stage": "FULL PAPER",
-      "deadline": "2026-11-17T11:59:00.000Z",
+      "deadline": "2026-11-17T11:59:59.000Z",
       "displayDeadline": "Nov 16, 2026 UTC-12 23:59",
       "meeting": "June 20-25, 2027",
       "location": "Seattle, WA, United States",
