@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-10",
   "source": "https://raw.githubusercontent.com/ccfddl/ccfddl.github.io/master/conference/allconf.yml",
   "policy": {
     "mode": "auto-apply",
@@ -17,9 +17,9 @@
   },
   "stats": {
     "currentCount": 13,
-    "importedCount": 4,
+    "importedCount": 5,
     "source": "ccfddl",
-    "outputCount": 13,
+    "outputCount": 14,
     "upstreamWarnings": [
       "Bibby CV Clock: request failed: 403"
     ]
@@ -225,6 +225,24 @@
       "location": "Kuala Lumpur, Malaysia",
       "source": "ccfddl",
       "sourceUrl": "https://icdar2027.org/"
+    },
+    {
+      "id": "icip27-paper",
+      "acronym": "ICIP 2027",
+      "area": "CV",
+      "rankings": {
+        "core": "A",
+        "ccf": "C",
+        "ccfField": "Artificial Intelligence"
+      },
+      "title": "IEEE International Conference on Image Processing",
+      "stage": "FULL PAPER",
+      "deadline": "2027-04-01T11:59:59.000Z",
+      "displayDeadline": "Mar 31, 2027 AoE 23:59",
+      "meeting": "November 29-December 3, 2027",
+      "location": "Singapore",
+      "source": "ccfddl",
+      "sourceUrl": "https://2027.ieeeicip.org/"
     },
     {
       "id": "iccv27-tba",
