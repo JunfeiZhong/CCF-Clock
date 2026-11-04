@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-11-04",
   "source": "https://raw.githubusercontent.com/ccfddl/ccfddl.github.io/master/conference/allconf.yml",
   "policy": {
     "mode": "auto-apply",
@@ -16,7 +16,7 @@
     "note": "Generated from ccfddl, merged with existing local conferences."
   },
   "stats": {
-    "currentCount": 13,
+    "currentCount": 14,
     "importedCount": 5,
     "source": "ccfddl",
     "outputCount": 14,
@@ -201,8 +201,8 @@
       },
       "title": "Document Analysis and Recognition",
       "stage": "ABSTRACT REG.",
-      "deadline": "2027-02-01T11:59:59.000Z",
-      "displayDeadline": "Jan 31, 2027 AoE 23:59",
+      "deadline": "2027-02-24T11:59:59.000Z",
+      "displayDeadline": "Feb 23, 2027 AoE 23:59",
       "meeting": "August 18 - 22, 2027",
       "location": "Kuala Lumpur, Malaysia",
       "source": "ccfddl",
@@ -219,8 +219,8 @@
       },
       "title": "Document Analysis and Recognition",
       "stage": "FULL PAPER",
-      "deadline": "2027-02-21T11:59:59.000Z",
-      "displayDeadline": "Feb 20, 2027 AoE 23:59",
+      "deadline": "2027-03-03T11:59:59.000Z",
+      "displayDeadline": "Mar 2, 2027 AoE 23:59",
       "meeting": "August 18 - 22, 2027",
       "location": "Kuala Lumpur, Malaysia",
       "source": "ccfddl",
